@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Difficulty Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h2>🌐 Web UI – Difficulty Predictor</h2>
+
+    <label>Problem Description</label>
+    <textarea id="description" placeholder="Paste problem description"></textarea>
+
+    <label>Input Description</label>
+    <textarea id="input_desc" placeholder="Paste input description"></textarea>
+
+    <label>Output Description</label>
+    <textarea id="output_desc" placeholder="Paste output description"></textarea>
+
+    <button onclick="predict()">Predict</button>
+
+    <div class="result" id="result">
+        <p><strong>Predicted Difficulty Class:</strong> <span id="difficulty"></span></p>
+        <p><strong>Predicted Difficulty Score:</strong> <span id="score"></span></p>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
