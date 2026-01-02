@@ -8,6 +8,17 @@ This project uses Natural Language Processing (NLP) and Machine Learning techniq
 The system extracts text-based and structural features from problem descriptions and applies supervised learning models for both classification and regression. A web-based interface allows users to interactively test the trained models.
 
 ---
+## Project Structure
+```bash
+AutoJudge/
+├── app.py                  # Streamlit app
+├── models/                 # Trained ML models (tfidf.pkl, classifier.pkl, regressor.pkl)
+├── data.jsonl              # Dataset used to train models
+├── project.ipynb           # Notebook for training and preprocessing
+├── requirements.txt        # Python dependencies
+└── .gitignore
+```
+---
 
 ## Dataset Used
 - File: `problems_data.jsonl`
@@ -156,5 +167,9 @@ The web interface is built using **Flask** and provides a simple user workflow:
    - Predicted difficulty score
 
 The Flask application runs locally on `localhost` and does not require any database or cloud deployment.
+
+## Author
+
+**Ankit Dhanghar(23117023)** , IIT ROORKEE, IIT Roorkee
 
 
