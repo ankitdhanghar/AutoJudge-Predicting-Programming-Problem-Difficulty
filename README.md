@@ -60,13 +60,13 @@ Missing values in text fields are handled by replacing them with empty strings.
 ## Evaluation Metrics
 
 ### Classification
-- Accuracy
+- Accuracy ~ 54%
 - Confusion Matrix
 
 ### Regression
-- Mean Absolute Error (MAE)
-- Root Mean Squared Error (RMSE)
-- R² Score
+- Mean Absolute Error (MAE) ~1.71
+- Root Mean Squared Error (RMSE) ~2.05
+- R² Score~ 0.1170
 
 ---
 ## Steps to Run the Project Locally
