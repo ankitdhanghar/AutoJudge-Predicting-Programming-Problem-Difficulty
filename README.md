@@ -158,6 +158,12 @@ The web interface is built using **Flask** and provides a simple user workflow:
 
 The Flask application runs locally on `localhost` and does not require any database or cloud deployment.
 
+---
+## Video explanation
+
+link - https://drive.google.com/file/d/1F1Bvhnt7AL9KogS9AnhrvrsO9Z5-u4FW/view?usp=sharing
+
+
 ## Author
 
 **Ankit Dhanghar(23117023)** , IIT Roorkee
